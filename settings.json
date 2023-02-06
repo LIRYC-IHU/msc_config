@@ -1,0 +1,55 @@
+// This configuration file allows to set up the application: name, logo, 
+// descriptions, licenses, project information.
+// 
+// 1° Update the parameters in this configuration file:
+[
+    {
+        "applicationName":       "MUSICardio",      // beware, it changes the default database path
+        "organizationName":      "INRIA_IHU-LIRYC", // beware, it changes the default database path
+        "organizationDomain":    "fr",
+        "projectContact":        "music-dev@inria.fr",
+        "documentationURL":      "https://music-test.inria.fr/musicardio",
+        "additionalAuthorsList": "", // additional names separated by ','
+
+        // Set the directory including your qrc file and resources, added at medInria-public root
+        "settingsQrcDirectory": "msc_config", 
+        
+        // Add these resources to your qrc file also
+        "largeLogoDarkTheme":  ":MUSICardio_logo_dark.png",
+        "largeLogoLightTheme": ":MUSICardio_logo_light.png",
+        "windowIcon":          ":MUSICardio_icon.ico",
+        "aboutFile":           ":msc-about.txt",
+        "releaseNotes":        ":msc-release-notes.txt",
+        "descriptionHomepage": ":msc-description.txt",
+        "licenseFile":         ":msc-license.txt",
+        "licenseExternalFile": ":msc-licenses-external.txt",
+
+        // Packaging
+        "packageVendor":        "https://www.ihu-liryc.fr/music/",
+        "projectDescription":   "MUSICardio is a cardiac image visualization and processing tool developed in collaboration between INRIA and the IHU LIRYC.",
+        "descriptionPackaging": "msc_config/msc-packaging-description.txt",
+        "readmeFile":           "msc_config/msc-packaging-readme.txt",
+        "welcomeFile":          "msc_config/msc-packaging-welcome.txt",
+        "licenceFilePath":      "msc_config/msc-license.txt",
+        "windowIconPath":       "msc_config/MUSICardio_icon.ico"
+    }
+]
+// 3° Create a qrc file with your resources:
+//
+// <RCC>
+//     <qresource prefix="/">
+//            <file>my-brand-logo-theme-dark.png</file>
+//            <file>my-brand-logo-theme-light.png</file>
+//            <file>my-window-icon.ico</file>
+//            <file>my-about.txt</file>
+//            <file>my-release-notes.txt</file>
+//            <file>my-description.txt</file>
+//            <file>my-license.txt</file>
+//            <file>my-license-external.txt</file>
+//     </qresource>
+// </RCC>
+// You settings.json file + your files (qrc, readme, description, icons, etc) can be add to a git repo.
+// You'll need to: "git clone your-parameter-repo" at the root of medInria, and just replace the settings.json file
+// from the repo directory to the medInria root one.
+
+// 4° Compile medInria

@@ -1,0 +1,2 @@
+<b>MUSICardio</b> is a software developed in collaboration with IHU LIRYC and Inria in order to propose functionalities dedicated to cardiac interventional planning and guidance, based on the medInria software platform.
+<b style="color: #ED6639;">Research prototype not for clinical use.</b>

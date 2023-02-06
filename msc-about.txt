@@ -1,0 +1,2 @@
+<b>MUSICardio (4.0.0)</b> is a medical imaging platform developed by IHU LIRYC and Inria.
+<br/><center>Copyright (c) 2013, IHU Liryc, Université de Bordeaux and Inria. All rights reserved.</center>
