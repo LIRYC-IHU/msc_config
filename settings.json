@@ -32,6 +32,8 @@
         "welcomeFile":          "msc_config/msc-packaging-welcome.txt",
         "licenceFilePath":      "msc_config/msc-license.txt",
         "windowIconPath":       "msc_config/MUSICardio_icon.ico"
+        
+        "expirationTime":       "12" // X months after the compilation this binary will expire. 0 = no expiration date"
     }
 ]
 // 3° Create a qrc file with your resources:
