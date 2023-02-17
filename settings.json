@@ -31,7 +31,8 @@
         "readmeFile":           "msc_config/msc-packaging-readme.txt",
         "welcomeFile":          "msc_config/msc-packaging-welcome.txt",
         "licenceFilePath":      "msc_config/msc-license.txt",
-        "windowIconPath":       "msc_config/MUSICardio_icon.ico"
+        "windowIconPath":       "msc_config/MUSICardio_icon.ico",
+        "macOSIconPath":        "msc_config", // dmg content icon for this application needs to be called medInria.icns
         
         "expirationTime":       "12" // X months after the compilation this binary will expire. 0 = no expiration date"
     }
@@ -54,4 +55,10 @@
 // You'll need to: "git clone your-parameter-repo" at the root of medInria, and just replace the settings.json file
 // from the repo directory to the medInria root one.
 
-// 4° Compile medInria
+// 4° Compile and package medInria
+
+// 5° How to update DMG style on macOS:
+// * pip3 install dmgbuild
+// * Check dmgbuild-script.sh and dmgbuild-config.json as in https://github.com/LIRYC-IHU/msc_config
+// The height value in dmgbuild-config.json should be the background height + 20 for the window bar.
+// * In build directory: ../msc_config/dmgbuild-script.sh
