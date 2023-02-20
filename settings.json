@@ -15,8 +15,8 @@
         "settingsQrcDirectory": "msc_config", 
         
         // Add these resources to your qrc file also
-        "largeLogoDarkTheme":  ":MUSICardio_logo_dark.png",
-        "largeLogoLightTheme": ":MUSICardio_logo_light.png",
+        "largeLogoDarkTheme":  ":MUSICardio_logo_dark.svg", // recommended size for logos: multiple of 706x245
+        "largeLogoLightTheme": ":MUSICardio_logo_light.svg",
         "windowIcon":          ":MUSICardio_icon.ico",
         "aboutFile":           ":msc-about.txt",
         "releaseNotes":        ":msc-release-notes.txt",
