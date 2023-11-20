@@ -15,9 +15,9 @@
         "settingsQrcDirectory": "msc_config", 
         
         // Add these resources to your qrc file also
-        "largeLogoDarkTheme":  ":MUSICardio_logo_dark.svg", // recommended size for logos: multiple of 706x245
-        "largeLogoLightTheme": ":MUSICardio_logo_light.svg",
-        "windowIcon":          ":MUSICardio_icon.ico",
+        "largeLogoDarkTheme":  ":icons/MUSICardio_logo_dark.svg", // recommended size for logos: multiple of 706x245
+        "largeLogoLightTheme": ":icons/MUSICardio_logo_light.svg",
+        "windowIcon":          ":icons/MUSICardio_icon.ico",
         "aboutFile":           ":msc-about.txt",
         "releaseNotes":        ":msc-release-notes.txt",
         "descriptionHomepage": ":msc-description.txt",
@@ -31,7 +31,7 @@
         "readmeFile":           "msc_config/msc-packaging-readme.txt",
         "welcomeFile":          "msc_config/msc-packaging-welcome.txt",
         "licenceFilePath":      "msc_config/msc-license.txt",
-        "windowIconPath":       "msc_config/MUSICardio_icon.ico",
+        "windowIconPath":       "msc_config/icons/MUSICardio_icon.ico",
         "macOSIconPath":        "msc_config", // dmg content icon for this application needs to be called medInria.icns
         
         "expirationTime":       "12" // X months after the compilation this binary will expire. 0 = no expiration date"

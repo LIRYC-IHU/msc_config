@@ -1,8 +1,8 @@
 <RCC>
     <qresource prefix="/">
-        <file>MUSICardio_logo_dark.svg</file>
-        <file>MUSICardio_logo_light.svg</file>
-        <file>MUSICardio_icon.ico</file>
+        <file>icons/MUSICardio_logo_dark.svg</file>
+        <file>icons/MUSICardio_logo_light.svg</file>
+        <file>icons/MUSICardio_icon.ico</file>
         <file>msc-about.txt</file>
         <file>msc-release-notes.txt</file>
         <file>msc-description.txt</file>
