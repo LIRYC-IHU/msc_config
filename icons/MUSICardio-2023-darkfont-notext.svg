@@ -24,16 +24,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.85862067"
-     inkscape:cx="731.8493"
-     inkscape:cy="81.844334"
+     inkscape:zoom="0.42931034"
+     inkscape:cx="629.13266"
+     inkscape:cy="-55.758906"
      inkscape:document-units="px"
      inkscape:current-layer="layer6"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1043"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1872"
+     inkscape:window-height="1016"
+     inkscape:window-x="48"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0"
      showborder="false"
@@ -908,7 +908,7 @@
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="MUSICardio - background"
-     style="display:none">
+     style="display:inline">
     <rect
        style="display:none;fill:#343a46;fill-opacity:1;stroke-width:0.92798001"
        id="rect330"
@@ -923,7 +923,7 @@
      inkscape:label="MUSICardio - backgroundTransparent"
      style="display:none">
     <rect
-       style="display:none;fill:none;fill-opacity:1;stroke-width:0.92798001"
+       style="display:inline;fill:none;fill-opacity:1;stroke-width:0.92798001"
        id="rect331"
        width="1440"
        height="300.92328"
@@ -1084,7 +1084,7 @@
     <text
        xml:space="preserve"
        id="text293-3"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:192px;line-height:100.75000525%;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';white-space:pre;shape-inside:url(#rect295-4);display:none;opacity:1;fill:#709ac2;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:192px;line-height:100.75000525%;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans Bold';white-space:pre;shape-inside:url(#rect295-4);display:inline;opacity:1;fill:#709ac2;fill-opacity:1;stroke:none"
        transform="translate(-974.02656,783.20493)"
        inkscape:export-xdpi="123"
        inkscape:export-ydpi="123"><tspan
